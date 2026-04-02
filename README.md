@@ -1,2 +1,2 @@
 # UnfoldingIR
-Official code for "UnfoldingIR: Rethinking Deep Unfolding Network in Illumination Degradation Image Restoration"
+Official code for "UnfoldIR: Rethinking Deep Unfolding Network in Illumination Degradation Image Restoration"
