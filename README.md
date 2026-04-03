@@ -8,7 +8,7 @@ CVPR26 ✨</p></b>
 
 **UnfoldIR: Rethinking Deep Unfolding Network in Illumination Degradation Image Restoration [[Paper]](https://arxiv.org/abs/2505.06683)**
 
-[Author1](AUTHOR1_HOMEPAGE), [Author2](AUTHOR2_HOMEPAGE), [Author3](AUTHOR3_HOMEPAGE), Author4, Author5
+[Chunming He](https://chunminghe.github.io/), Rihan Zhang, Fengyang Xiao, Chengyu Fang, Longxiang Tang, Rui Zhang, and Sina Farsiu
 
 #### 🔥🔥🔥 News
 - **2026-XX-XX:** We release the code and pretrained models.
