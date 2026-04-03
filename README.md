@@ -3,8 +3,8 @@
 # <p align=center> `UnfoldIR` </p>
 
 <b><p align=center>
-<a href='YOUR_PAPER_LINK'><img src='https://img.shields.io/badge/ArXiv-XXXX.XXXXX-red'></a>
-CVPR / ICCV / ECCV / TIP / TCSVT / etc.
+<a href='YOUR_PAPER_LINK'><img src='https://img.shields.io/badge/ArXiv-2505.06683-red'></a>
+CVPR26
 </p></b>
 
 **UnfoldIR: Rethinking Deep Unfolding Network in Illumination Degradation Image Restoration [[Paper]](https://arxiv.org/abs/2505.06683)**
