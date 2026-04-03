@@ -26,7 +26,7 @@ RAIC employs a visual state space (VSS) to extract non-local features, enforcing
 Furthermore, given the multistage structure, an inter-stage information consistency loss is proposed to enhance training stability and structural preservation, even under unsupervised settings.
 Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks. Besides, our analysis of the intrinsic DUN mechanisms provides insights for future research.
 
-![](figs/framework.pdf)
+![](figs/Framework1.pdf)
 
 ---
 
@@ -120,15 +120,15 @@ We achieved state-of-the-art performance on *low light image enhancement*, *unde
 
 - Results in Table 1 of the main paper
   <p align="center">
-  <img width="900" src="figs/table-1.png">
+  <img width="900" src="figs/Table1.png">
 	</p>
-- Results in Table 2-3 of the main paper
+- Results in Table 2-4 of the main paper
   <p align="center">
-  <img width="900" src="figs/table-2-3.png">
+  <img width="900" src="figs/Table2-4.png">
 	</p>
-- Results in Table 6-9 of the main paper
+- Results in Table 5 of the main paper
   <p align="center">
-  <img width="900" src="figs/table-6-7-8-9.png">
+  <img width="900" src="figs/Table5.png">
 	</p>
   </details>
 
@@ -137,15 +137,19 @@ We achieved state-of-the-art performance on *low light image enhancement*, *unde
 
 - Results in Figure 3 of the main paper
   <p align="center">
-  <img width="900" src="figs/llie.jpeg">
+  <img width="900" src="figs/LLIE.pdf">
 	</p>
 - Results in Figure 4 of the main paper
   <p align="center">
-  <img width="900" src="figs/uie.jpeg">
+  <img width="900" src="figs/UIE.pdf">
 	</p>
 - Results in Figure 5 of the main paper
   <p align="center">
-  <img width="900" src="figs/backlit.jpeg">
+  <img width="900" src="figs/BIE.pdf">
+	</p>
+- Results in Figure 6 of the main paper
+  <p align="center">
+  <img width="900" src="figs/Fundus1.pdf">
 	</p>
   </details>
 
