@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3  basicsr/test.py -opt Enhancement/Options/Enhancement_UnfoldIR.yml
