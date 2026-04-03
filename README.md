@@ -11,10 +11,9 @@ CVPR26 ✨</p></b>
 [Chunming He](https://chunminghe.github.io/), Rihan Zhang, Fengyang Xiao, Chengyu Fang, Longxiang Tang, Rui Zhang, and Sina Farsiu
 
 #### 🔥🔥🔥 News
-- **2026-XX-XX:** We release the code and pretrained models.
-- **2026-XX-XX:** We update the training and testing scripts.
-- **2026-XX-XX:** Paper is available on arXiv.
-- **2026-XX-XX:** This repository is created.
+- **2026-04-03:** We release the code and pretrained models.
+- **2026-04-03:** We update the training and testing scripts.
+- **2026-04-02:** This repository is created.
 
 > **Abstract:**  
 >Deep unfolding networks (DUNs) are widely employed in illumination degradation image restoration (IDIR), merging the interpretability of model-based approaches with the power of deep learning. 
