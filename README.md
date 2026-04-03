@@ -155,10 +155,10 @@ We achieved state-of-the-art performance on *low light image enhancement*, *unde
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-@article{he2025reti,
-  title={Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model},
-  author={He, Chunming and Fang, Chengyu and Zhang, Yulun and Li, Kai and Tang, Longxiang and You, Chenyu and Xiao, Fengyang and Guo, Zhenhua and Li, Xiu},
-  journal={ICLR},
+@article{he2025unfoldir,
+  title={Unfoldir: Rethinking deep unfolding network in illumination degradation image restoration},
+  author={He, Chunming and Zhang, Rihan and Xiao, Fengyang and Fang, Chengyu and Tang, Longxiang and Zhang, Yulun and Farsiu, Sina},
+  journal={arXiv preprint arXiv:2505.06683},
   year={2025}
 }
 ```
