@@ -32,11 +32,11 @@ Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks.
 ## 🔗 Contents
 
 - [x] [Requirements](https://github.com/ChunmingHe/UnfoldIR/blob/main/README.md#-requirements)
-- [x] [Training](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-training)
-- [x] [Testing](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-testing)
-- [x] [Results](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-results)
-- [x] [Citation](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-citation)
-- [x] [Acknowledgements](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-acknowledgements)
+- [x] [Training](https://github.com/ChunmingHe/UnfoldIR/blob/main/README.md#-training)
+- [x] [Testing](https://github.com/ChunmingHe/UnfoldIR/blob/main/README.md#-testing)
+- [x] [Results](https://github.com/ChunmingHe/UnfoldIR/blob/main/README.md#-results)
+- [x] [Citation](https://github.com/ChunmingHe/UnfoldIR/blob/main/README.md#-citation)
+- [x] [Acknowledgements](https://github.com/ChunmingHe/UnfoldIR/blob/main/README.md#-acknowledgements)
 
 ---
 
