@@ -32,12 +32,12 @@ Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks.
 
 ## 🔗 Contents
 
-- [x] [Requirements](#-requirements)
-- [x] [Training](#-training)
-- [x] [Testing](#-testing)
-- [x] [Results](#-results)
-- [x] [Citation](#-citation)
-- [x] [Acknowledgements](#-acknowledgements)
+- [x] [Requirements](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-requirements)
+- [x] [Training](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-training)
+- [x] [Testing](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-testing)
+- [x] [Results](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-results)
+- [x] [Citation](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-citation)
+- [x] [Acknowledgements](https://github.com/ChunmingHe/Reti-Diff/blob/main/README.md#-acknowledgements)
 
 ---
 
@@ -64,3 +64,100 @@ conda activate UnfoldIR
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 python setup.py develop
+
+## 🧱 Training
+
+1. Put the Train Datasets into Datasets folder.
+
+2. Modify the config files in options folder and specific shell scripts.
+
+3. Run the shell scripts
+
+```bash
+# LLIE
+sh trainS1_LLIE.sh
+sh trainS2_LLIE.sh
+
+# UIE
+sh trainS1_UIE.sh
+sh trainS2_UIE.sh
+
+# Backlit
+sh trainS1_Backlit.sh
+sh trainS2_Backlit.sh
+```
+
+## ⚡️ Testing
+
+1. Put the Test Datasets into Datasets folder.
+
+2. Put the Pretrained Models into pretrained_models folder.
+
+3. Run the following command to test the model:
+
+```bash
+# LLIE
+sh test_LLIE_syn.sh
+or 
+sh test_LLIE_real.sh
+
+# UIE
+sh test_UIE_LSUI.sh
+or
+sh test_UIE_UIEB.sh
+
+# Backlit
+sh test_Backlit.sh
+```
+
+## 🔍 Results
+
+We achieved state-of-the-art performance on *low light image enhancement*, *underwater image enhancement*, *backlit image enhancement* and corresponding downstream tasks. More results can be found in the paper.
+
+<details>
+<summary>Quantitative Comparison (click to expand)</summary>
+
+- Results in Table 1 of the main paper
+  <p align="center">
+  <img width="900" src="figs/table-1.png">
+	</p>
+- Results in Table 2-3 of the main paper
+  <p align="center">
+  <img width="900" src="figs/table-2-3.png">
+	</p>
+- Results in Table 6-9 of the main paper
+  <p align="center">
+  <img width="900" src="figs/table-6-7-8-9.png">
+	</p>
+  </details>
+
+<details>
+<summary>Visual Comparison (click to expand)</summary>
+
+- Results in Figure 3 of the main paper
+  <p align="center">
+  <img width="900" src="figs/llie.jpeg">
+	</p>
+- Results in Figure 4 of the main paper
+  <p align="center">
+  <img width="900" src="figs/uie.jpeg">
+	</p>
+- Results in Figure 5 of the main paper
+  <p align="center">
+  <img width="900" src="figs/backlit.jpeg">
+	</p>
+  </details>
+
+
+## 📎 Citation
+
+If you find the code helpful in your research or work, please cite the following paper(s).
+
+```
+@article{he2025reti,
+  title={Reti-Diff: Illumination Degradation Image Restoration with Retinex-based Latent Diffusion Model},
+  author={He, Chunming and Fang, Chengyu and Zhang, Yulun and Li, Kai and Tang, Longxiang and You, Chenyu and Xiao, Fengyang and Guo, Zhenhua and Li, Xiu},
+  journal={ICLR},
+  year={2025}
+}
+```
