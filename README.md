@@ -4,11 +4,10 @@
 
 <b><p align=center>
 <a href='YOUR_PAPER_LINK'><img src='https://img.shields.io/badge/ArXiv-XXXX.XXXXX-red'></a>
-<!-- 如果有会议/期刊信息，可以保留 -->
 CVPR / ICCV / ECCV / TIP / TCSVT / etc.
 </p></b>
 
-**UnfoldIR: Rethinking Deep Unfolding Network in Illumination Degradation Image Restoration [[Paper]](YOUR_PAPER_LINK)**
+**UnfoldIR: Rethinking Deep Unfolding Network in Illumination Degradation Image Restoration [[Paper]](https://arxiv.org/abs/2505.06683)**
 
 [Author1](AUTHOR1_HOMEPAGE), [Author2](AUTHOR2_HOMEPAGE), [Author3](AUTHOR3_HOMEPAGE), Author4, Author5
 
