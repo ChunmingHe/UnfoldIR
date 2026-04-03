@@ -74,17 +74,7 @@ python setup.py develop
 3. Run the shell scripts
 
 ```bash
-# LLIE
-sh trainS1_LLIE.sh
-sh trainS2_LLIE.sh
-
-# UIE
-sh trainS1_UIE.sh
-sh trainS2_UIE.sh
-
-# Backlit
-sh trainS1_Backlit.sh
-sh trainS2_Backlit.sh
+sh train.sh
 ```
 
 ## ⚡️ Testing
@@ -96,18 +86,7 @@ sh trainS2_Backlit.sh
 3. Run the following command to test the model:
 
 ```bash
-# LLIE
-sh test_LLIE_syn.sh
-or 
-sh test_LLIE_real.sh
-
-# UIE
-sh test_UIE_LSUI.sh
-or
-sh test_UIE_UIEB.sh
-
-# Backlit
-sh test_Backlit.sh
+sh test.sh
 ```
 
 ## 🔍 Results
