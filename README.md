@@ -26,7 +26,7 @@ RAIC employs a visual state space (VSS) to extract non-local features, enforcing
 Furthermore, given the multistage structure, an inter-stage information consistency loss is proposed to enhance training stability and structural preservation, even under unsupervised settings.
 Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks. Besides, our analysis of the intrinsic DUN mechanisms provides insights for future research.
 
-![](figs/framework.png)
+![](figs/framework.pdf)
 
 ---
 
