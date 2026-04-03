@@ -42,7 +42,7 @@ Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks.
 
 ## 📦 Requirements
 
-Pretrained Models: [Google Drive](YOUR_GOOGLE_DRIVE_LINK)
+Pretrained Models: [Google Drive](https://drive.google.com/drive/folders/12GP3ioc4HOJAbRdYc05uQ7DyVOFngbfx?usp=drive_link)
 
 ### ⚙️ Dependencies
 
