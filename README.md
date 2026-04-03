@@ -113,7 +113,7 @@ sh test_Backlit.sh
 
 ## 🔍 Results
 
-We achieved state-of-the-art performance on *low light image enhancement*, *underwater image enhancement*, *backlit image enhancement* and corresponding downstream tasks. More results can be found in the paper.
+We achieved state-of-the-art performance on *low light image enhancement*, *underwater image enhancement*, *backlit image enhancement*,*Fundus image enhancement* and corresponding downstream tasks. More results can be found in the paper.
 
 <details>
 <summary>Quantitative Comparison (click to expand)</summary>
@@ -125,10 +125,6 @@ We achieved state-of-the-art performance on *low light image enhancement*, *unde
 - Results in Table 2-4 of the main paper
   <p align="center">
   <img width="900" src="figs/Table2-4.png">
-	</p>
-- Results in Table 5 of the main paper
-  <p align="center">
-  <img width="900" src="figs/Table5.png">
 	</p>
   </details>
 
