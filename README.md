@@ -54,7 +54,7 @@ Pretrained Models: [Google Drive](https://drive.google.com/drive/folders/12GP3io
 ### Initialize Environment
 
 ```bash
-git clone https://github.com/ChunmingHe/UnfoldIR
+git clone https://github.com/ChunmingHe/UnfoldIR.git
 cd UnfoldIR
 
 conda create -n UnfoldIR python=3.9
