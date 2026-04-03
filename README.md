@@ -163,4 +163,4 @@ If you find the code helpful in your research or work, please cite the following
 }
 ```
 ## 💡 Acknowledgements
-The codes are based on [BasicSR](https://github.com/XPixelGroup/BasicSR), [Reti-Diff](https://github.com/ChunmingHe/Reti-Diff), [Restormer](https://github.com/swz30/Restormer). Please also follow their licenses. Thanks for their awesome works.
+The codes are based on [BasicSR](https://github.com/XPixelGroup/BasicSR), [Reti-Diff](https://github.com/ChunmingHe/Reti-Diff), [MambaIR](https://github.com/csguoh/MambaIR). Please also follow their licenses. Thanks for their awesome works.
