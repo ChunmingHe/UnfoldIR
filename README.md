@@ -19,8 +19,14 @@ CVPR / ICCV / ECCV / TIP / TCSVT / etc.
 - **2026-XX-XX:** This repository is created.
 
 > **Abstract:**  
-> Deep unfolding networks (DUNs) are widely employed in illumination degradation image restoration (IDIR), merging the interpretability of model-based approaches with the power of deep learning. 
-However, their performance still lags behind state-of-the-art IDIR methods, primarily due to insufficient exploration of unfolding structures. The main challenges are: (1) lack of task-specific modeling, (2) weak integration of modern network designs, and (3) absence of DUN-tailored learning objectives. To address this, we propose a novel DUN-based method, UnfoldIR, for IDIR tasks.It formulates a new IDIR model with regularization terms for illumination smoothing and texture enhancement, whose iterative optimization is unfolded into a multi-stage network containing two modules: reflectance-assisted illumination correction (RAIC) and illumination-guided reflectance enhancement (IGRE).RAIC employs a visual state space (VSS) to extract non-local features, enforcing illumination smoothness, while IGRE introduces a frequency-aware VSS to globally align similar textures, enabling mildly degraded regions to guide the enhancement of details in more severely degraded areas.Furthermore, given the multistage structure, an inter-stage information consistency loss is proposed to enhance training stability and structural preservation, even under unsupervised settings.Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks. Besides, our analysis of the intrinsic DUN mechanisms provides insights for future research. 
+>Deep unfolding networks (DUNs) are widely employed in illumination degradation image restoration (IDIR), merging the interpretability of model-based approaches with the power of deep learning. 
+However, their performance still lags behind state-of-the-art IDIR methods, primarily due to insufficient exploration of unfolding structures. The main challenges are: (1) lack of task-specific modeling, (2) weak integration of modern network designs, and (3) absence of DUN-tailored learning objectives.
+To address this, we propose a novel DUN-based method, UnfoldIR, for IDIR tasks. 
+It formulates a new IDIR model with regularization terms for illumination smoothing and texture enhancement, whose iterative optimization is unfolded into a multi-stage network containing two modules:
+reflectance-assisted illumination correction (RAIC) and illumination-guided reflectance enhancement (IGRE). 
+RAIC employs a visual state space (VSS) to extract non-local features, enforcing illumination smoothness, while IGRE introduces a frequency-aware VSS to globally align similar textures, enabling mildly degraded regions to guide the enhancement of details in more severely degraded areas. 
+Furthermore, given the multistage structure, an inter-stage information consistency loss is proposed to enhance training stability and structural preservation, even under unsupervised settings.
+Experiments verify our effectiveness across 5 IDIR tasks and 3 downstream tasks. Besides, our analysis of the intrinsic DUN mechanisms provides insights for future research.
 
 ![](figs/framework.png)
 
